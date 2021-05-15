@@ -1,0 +1,132 @@
+#contactA {
+    color:rgb(180, 235, 201);
+    font-family: calibri;
+    font-stretch: narrower;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#portfolioA {
+    color:rgb(180, 235, 201);
+    font-family: calibri;
+    font-stretch: narrower;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#about-meA {
+    color:rgb(180, 235, 201);
+    font-family: calibri;
+    font-stretch: narrower;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#content {
+    position: relative;
+}
+
+.logo-image{
+    display: inline;
+    position: absolute;
+    top: -11%;
+    right: 20%;
+    overflow: hidden;
+    border-radius: 20%;
+    margin-top: 166px;
+}
+
+.header {
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: rgb(98, 197, 164);
+}
+
+.nav {
+    margin: 100px;
+    background-color: rgb(145, 169, 185);
+    min-height: 10vh;
+    border-radius: 10px;
+   }
+
+.container {  
+    border: 5px solid rgb(46, 95, 141);
+    border-radius: .5em;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-content: stretch;
+   }
+      
+.item1 {
+    width: 400px;
+    height: 260px;
+    padding: 10px;
+    background-color: rgba(77, 92, 124, 0.3);
+    border: 2px solid rgba(98, 146, 185, 0.5);
+    text-align: center;
+    font-size: small;
+    color:aqua;        
+   }
+    
+.item2 {
+    width: 100px;
+    height: 109px;
+    padding: 10px;
+    background-color: rgba(77, 92, 124, 0.3);
+    border: 2px solid rgba(98, 146, 185, 0.5);
+    text-align: center;
+    display:block;
+    justify-content: center;
+    font-size: small;
+    color:aqua;
+    margin-bottom:20px;
+   }
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+   }
+
+.button {
+    border: solid;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    margin: 30px 30px;
+    cursor: pointer;
+    background-color: #679b69;
+   }
+
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
+   }
+
+.inline {
+    display:inline;
+   }
+
+body {
+    color: lightgray;
+    text-shadow: 0.5px 0.5px #9ca1a1;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+
+ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+   }
