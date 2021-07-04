@@ -83,13 +83,14 @@
     padding: 10px;
     display: flex;
     justify-content: space-around;
-    align-content: stretch;
+    /* align-content: stretch; */
    }
       
 .item1 {
-    width: 400px;
-    height: 260px;
-    padding: 10px;
+    margin-top: 75px;
+    width: 300px;
+    height: 250px;
+    padding: 30px;
     background-color: rgba(77, 92, 124, 0.3);
     border: 2px solid rgba(98, 146, 185, 0.5);
     text-align: center;
@@ -99,7 +100,7 @@
     
 .item2 {
     width: 100px;
-    height: 109px;
+    height: 110px;
     padding: 10px;
     background-color: rgba(77, 92, 124, 0.3);
     border: 2px solid rgba(98, 146, 185, 0.5);
