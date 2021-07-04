@@ -1,27 +1,36 @@
 #contactA {
-    color:rgb(180, 235, 201);
+   color:rgb(59, 116, 81);
     font-family: calibri;
     font-stretch: narrower;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-bottom: 10px;
 }
 
 #portfolioA {
-    color:rgb(180, 235, 201);
+    color:rgb(59, 116, 81);
     font-family: calibri;
     font-stretch: narrower;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-bottom: 10px;
 }
 
 #about-meA {
-    color:rgb(180, 235, 201);
+    color:rgb(59, 116, 81);
     font-family: calibri;
     font-stretch: narrower;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+#about-meB {
+    color:rgb(5, 196, 196);
+    font-family: calibri;
+    font-stretch: narrower;
+    padding-top: 10px;
+    padding-left: 20px;
     padding-bottom: 10px;
 }
 
@@ -29,25 +38,37 @@
     position: relative;
 }
 
+.aboutMe{
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
 .logo-image{
+    width: 200px;
+    height: 220px;
     display: inline;
     position: absolute;
     top: -11%;
-    right: 20%;
+    right: -2%;
     overflow: hidden;
     border-radius: 20%;
-    margin-top: 166px;
+    margin-top: 140px;
 }
 
 .header {
-    font-size: x-large;
+    font-size: 200%;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    color: rgb(98, 197, 164);
+    font-weight: bold;
+    font-stretch: expanded;
+    color: rgb(140, 209, 140);
 }
 
 .nav {
-    margin: 100px;
+    margin: 50px;
     background-color: rgb(145, 169, 185);
     min-height: 10vh;
     border-radius: 10px;
