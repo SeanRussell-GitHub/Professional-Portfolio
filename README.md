@@ -1,6 +1,10 @@
 # Professional-Portfolio
 
+deployed url:
 https://seanrussell-github.github.io/Professional-Portfolio/
+
+GitHub url:
+https://github.com/SeanRussell-GitHub/Professional-Portfolio.git
 
 Assignment is to create a professional website with navigation.
 Used Javascript, Cascading Style Sheet, and HTML
