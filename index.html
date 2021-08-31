@@ -1,159 +1,191 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <script src="javascript.js"></script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-</head>
-<a id='top'></a>    
-<h1 style="text-align: center;" class="header">
-    Professional Portfolio for Sean Russell
-</h1>
-<hr color=lightgray>
-
-<body background="backgroundImage-1132439239-640x640.jpg">
-    <nav class="nav">
-        <a class="navbar-brand" href="/">
-            <div class="logo-image">
-                  <img src="bookJacketPic.jpg" class="img-fluid" alt="Author Pic";>
-            </div>
-      </a>
-        <a href= '#about-me' id="about-meA";>About Me</a>
-        <a href= '#portfolio' id="portfolioA";>Portfolio</a>
-        <a href= '#contact' id="contactA";>Contact</a>
-       
-    </nav><br><br>
-
-        <div id='about-meA' style="background-color: rgb(90, 115, 133); min-height: auto;">
-            <h1 id="about-meB">
-                <p class='aboutMe'>
-                Hello, my name is Sean.
-                </p>
-                <p>
-            I'm an Oregon based web designer working remotely
-            with companies across the country to build creative and engaging websites with the
-            functionality to stay ahead of competitors.
-                </p>
-            </h1>
-        </div>
-       <div style='margin-bottom: 30px;min-height: auto; background-color: rgb(123, 145, 161);'>
-        <h1 id="about-meA">
-            <ul>
-                <li class='aboutMe'>About me...</li><br>
-                <li>
-                    Project organizer with years of management experience in a variety of settings, 
-                    providing expert support and quality information for dynamic businesses in a 
-                    quickly changing world.
-
-                </li>
-                <br>
-                <li>
-                    Proven group leader certified in software development and educated in eBusiness Commerce. 
-                    Skilled in HTML, CSS, and Java Script with a focus on data analytics. 
-                    Easily finds direction in startup projects and ongoing applications, committing to 
-                    the successful, timely completion.
-                </li>
-            </ul>
-        </h1>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Sean Russell · Professional Portfolio</title>
+    <link href="/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#contactInfo">Contact Information</a>
+          </li>
+        </ul>
+        <form>
+          <text >Sean Russell's Professional Portfolio</text>
+        </form>
+      </div>
     </div>
-    <footer><a id="portfolioA" href="#top">Back to top</a></footer>
-    <div id='portfolio' style='margin-bottom: 30px; min-height: auto; background-color: rgb(123, 145, 161);'>
-        <h1 id="portfolioA">
-            LINKS TO PUBLISHED SITES:
-        </h1>
+  </nav>
+</header>
+<main>
 
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        
         <div class="container">
-            <div>
-            <a href="https://seanrussell-github.github.io/Weather-Dashboard/" target="_blank" rel="noopener noreferrer">
-                <div class="item1">
-                    <span class = "extras">Project title: Weather Dashboard
-                    <img class="smallPic" src="WeatherDashboardSnip.PNG" alt="Weather-Dashboard">
-                    <br>https://seanrussell-github.github.io/Weather-Dashboard/<br></span>
-                    <a href="https://github.com/SeanRussell-GitHub/Weather-Dashboard.git" target="_blank" rel="noopener noreferrer">
-                        <span class = "extras" style="font-size:7px">GitHub url: https://github.com/SeanRussell-GitHub/Weather-Dashboard.git</span>
-                        </a>
-                    </div>
-            </a>
-            
-                <a href="https://seanrussell-github.github.io/CSS-Cheat-Sheet/" target="_blank" rel="noopener noreferrer">
-                    <div class="item1">
-                        <span  class = "extras">Project title: CSS Cheatsheet
-                            <img src="CSSCheatSheet.png" alt="CSS Cheatsheet">
-                            <br>https://seanrussell-github.github.io/CSS-Cheat-Sheet/<br></span> 
-                        <a href="https://github.com/SeanRussell-GitHub/CSS-Cheat-Sheet.git" target="_blank" rel="noopener noreferrer">
-                            <span class = "extras" style="font-size:7px">GitHub url: https://github.com/SeanRussell-GitHub/CSS-Cheat-Sheet.git</span>
-                            </a>
-                    </div>
-                </a>
+          <div class="carousel-caption">
+            <h1>Hello, my name is Sean.</h1>
+            <p> I'm an Oregon based web designer working remotely
+              with companies across the country to build creative and engaging websites with the functionality to stay ahead of competitors.</p>
+              <p><a class="btn btn-lg btn-primary" href="mailto:emailseanrussell@gmail.com?subject=From Professional Portfolio Page">Email</a></p>
             </div>
-            <div>
-                <a href="https://seanrussell-github.github.io/fanpage/" target="_blank" rel="noopener noreferrer">                    
-                    <div class="item1">
-                        <span class = "extras">Project title: Music Group Fan Page
-                            <img src="CrampsFanPage.png" alt="Cramps Fanpage">
-                            <br>https://seanrussell-github.github.io/fanpage/<br>
-                        <a href="https://github.com/SeanRussell-GitHub/fanpage.git" target="_blank" rel="noopener noreferrer">
-                            <span class = "extras" style="font-size:7px">GitHub url: https://github.com/SeanRussell-GitHub/fanpage.git</span>
-                            </a>
-                    </div>
-                </a>
-                <a href="https://seanrussell-github.github.io/pokemonTeamProject/" target="_blank" rel="noopener noreferrer">
-                    <div class="item1">
-                        <span class = "extras">Project title: Pokémon Team Project
-                            <br> 
-                            <img src='./pokemonSnip.PNG' alt="Pokémon Team Project">
-                            <br>https://seanrussell-github.github.io/pokemonTeamProject/
-                        <a href="https://github.com/SeanRussell-GitHub/pokemonTeamProject.git" target="_blank" rel="noopener noreferrer">
-                            <span class = "extras" style="font-size:7px">GitHub url: https://github.com/SeanRussell-GitHub/pokemonTeamProject.git</span>
-                            </a>
-                    </div>
-            </div>
-                </a>
-            </div>
+          </div>
         </div>
-        <br>
-    </div>
-    <footer><a id="portfolioA" href="#top">Back to top</a></footer>
-        <div id='contact' style='margin-bottom: 30px; min-height: auto; background-color: rgb(123, 145, 161);'>
-        <h1 id="contactA">
-            How to get in touch with me:
-        </h1>
-        <div class="inline" id="about-meA">
-            <button type="button" class="button" onclick="window.open('mailto:emailseanrussell@gmail.com');">email</button>
-            <span style="color: #357aa8"> I can always be reached by email and will respond within 24 hours </span>
-            <ul>
-               <li>Email: <a  style="color: #357aa8" href onclick="window.open('mailto:emailseanrussell@gmail.com');">emailseanrussell@Gmail.com</a></li><br>
-               <li">GitHub profile: 
-                   <a href="https://github.com/SeanRussell-GitHub" target="_blank" rel="noopener noreferrer">
-                    <span style="color: #357aa8">https://github.com/SeanRussell-GitHub</span>
-                    </a>
-               </li><br><br>
-               <li>LinkedIn profile: 
-                   <a href="https://www.linkedin.com/in/sean-russell-32880a210/" target="_blank" rel="noopener noreferrer">
-                    <span style="color: #357aa8">https://www.linkedin.com/in/sean-russell-32880a210/</span>
-                    </a>
-               </li><br>
-               <li>Resume: 
-                   <a href="https://my.indeed.com/p/seanr-flh388m" target="_blank" rel="noopener noreferrer">
-                    <span style="color: #357aa8">https://my.indeed.com/p/seanr-flh388m</span>
-                    </a>
-               </li>
-               <br>
-               <li>Cell phone: <span style="color: #357aa8"
-                style="color: #357aa8">(555)555-5555 ... leave a message or text </span></li><br>
-               <li>Home address:<pre id="about-meA" style="color: #357aa8">
-                   Sean Russell           
-                  123 Main street
-                 Albany, OR 97322</pre>
-           </ul>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+          
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Practical Knowledge</h1>
+              <p> As a project organizer with years of management experience in a variety of settings, providing expert support and quality information for dynamic businesses in a quickly changing world. Finding direction easily in startup projects and ongoing applications, while following through to the successful, timely completion.</p>
+              <p><a class="btn btn-lg btn-primary" href="#skills">Learn more</a></p>
+            </div>
+          </div>
         </div>
-                <hr color=lightgray>
-                <a id="portfolioA" href="#top">Back to top</a>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+          
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Full Stack Programming</h1>
+              <p> HTML/CSS....
+                JavaScript....
+                Git and GitHub....
+                Backend languages....
+                Web architecture....
+                HTTP and REST....
+                Database storage....
+                Web design skills....</p>
+                <p><a class="btn btn-lg btn-primary" href="#contactInfo">About Me</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+    <div class="container marketing">
+    <div class="row">
+      <div class="col-lg-4">
+        <svg class="rounded" width="215" height="160" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="none" focusable="false"><title>Placeholder</title><image xlink:href="pokemonThumb.PNG" x="-10%" y="0%" fill="#777"/></svg>
+        <h2> Pokémon Finder </h2>
+        <p> A team project to create an app that uses 2 APIs to search for any Pokémon by either name or special move. </p>
+        <p><a class="btn btn-secondary" href="https://seanrussell-github.github.io/pokemonTeamProject/" target="_blank" rel="noopener noreferrer">Published Website &raquo;</a></p>
+
+      </div>
+      <div class="col-lg-4">
+        <svg class="rounded" width="215" height="160" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="none" focusable="false"><title>Placeholder</title><image xlink:href="NoteTakerThumb1.PNG" x="0%" y="0%" fill="#777"/></svg>
+        <h2> Take A Note </h2>
+        <p>This Note Taking app started out as a homework assignment requiring the use of Express and has since gained popularity with family and friends.</p>
+        <p><a class="btn btn-secondary" href="https://postit-app11.herokuapp.com/notes.HTML" target="_blank" rel="noopener noreferrer">Hosted Application &raquo;</a></p>
+
+      </div>
+      <div class="col-lg-4">
+        <svg class="rounded" width="215" height="160" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="none" focusable="false"><title>Placeholder</title><image xlink:href="HikingAppThumb.PNG" x="0%" y="0%" fill="#777"/></svg>
+        <h2> A Hiking App </h2>
+        <p>A group project to create an app with an interactive front end as well as a back end for log in authentication, cookies and access a seeded database. Hosted on Heroku!</p>
+        <p><a class="btn btn-secondary" href="https://sheltered-badlands-95600.herokuapp.com/" target="_blank" rel="noopener noreferrer">Hosted Application &raquo;</a></p>
+      </div>
     </div>
-    <img src="pianoKeys.PNG" alt='piano keys' style="width:100%;height:150px;">
+
+    <hr id="skills" class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">In Technology, <span class="text-muted">follow the trends.</span></h2><br><br>
+        <p class="lead" style="font-size: x-large;">Keeping up with the trends in technology is the best way to stay fully informed about the variety of applications being used in today's industry while also focusing on up and coming specific changes or innovations.</p>
+      </div>      
+      <div class="col-md-5 featurette-heading">
+        <p  style="justify-content: center;">
+          <ul style="font-size: x-large; text-align: center;">
+            <li>HTML/CSS....</li>
+            <li>JavaScript....</li>
+            <li>Git and GitHub....</li>
+            <li>Backend languages....</li>
+            <li>Web architecture....</li>
+            <li>HTTP and REST....</li>
+            <li>Database storage....</li>
+            <li>Web design skills....</li>
+          </ul>
+        </p><br><br>
+        <p style="font-size: xx-large; text-align: right;"><a href="#">Back to top</a></p>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Part desinger <span class="text-muted">Part coder </span></h2><br><br>
+        <p class="lead" style="font-size: x-large;"> I'm an Oregon based web designer working remotely, so really I could be working from anywhere! In life I've always enjoyed travel, exploring the outdoors, and hours and hours of playing video games. The image on the left is from a recent trip hiking up one of the tributaries from the Santiam River called Quartz Creek. </p>
+      </div>
+      <div class="col-md-5 order-md-1">        
+        <div class="featurette-heading">
+          <img class="bd-placeholder-img bd-placeholder-img-lg img-thumbnail img-fluid mx-auto" width="500" height="500" src="OregonOffice.jpg">
+          <p style="font-size: xx-large; text-align: left;"><a href="#">Back to top</a></p>
+        </div>
+      </div>
+    </div>
+
+    <hr id="contactInfo" class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">How to <span class="text-muted">contact me...</span></h2><br><br>
+        <ul style="font-size: x-large; text-align: left;">
+            <li>Cell phone: <span style="color: #357aa8"
+            style="color: #357aa8">(555)555-5555 ... leave a message or text </span></li><br>
+           <li>Email: <a  style="color: #357aa8" href onclick="window.open('mailto:emailseanrussell@gmail.com');">emailseanrussell@Gmail.com</a></li><br>
+           <li>GitHub profile: 
+               <a href="https://github.com/SeanRussell-GitHub" target="_blank" rel="noopener noreferrer">
+                <span style="color: #357aa8">https://github.com/SeanRussell-GitHub</span>
+                </a>
+           </li><br>
+           <li>LinkedIn profile: 
+               <a href="https://www.linkedin.com/in/sean-russell-32880a210/" target="_blank" rel="noopener noreferrer">
+                <span style="color: #357aa8">https://www.linkedin.com/in/sean-russell-32880a210/</span>
+                </a>
+           </li><br>
+           <li>Resume: 
+               <a href="https://my.indeed.com/p/seanr-flh388m" target="_blank" rel="noopener noreferrer">
+                <span style="color: #357aa8">https://my.indeed.com/p/seanr-flh388m</span>
+                </a>
+           </li><br>           
+       </ul>
+      </div>
+      <div class="col-md-5 order-md-1 featurette-heading">
+        <img class="bd-placeholder-img bd-placeholder-img-lg rounded-circle img-thumbnail img-fluid mx-auto" width="500" height="500" src="bookJacketPic.jpg">
+        <p style="font-size: xx-large; text-align: right;"><a href="#">Back to top</a></p>
+      </div>
+    </div>
+    <hr class="featurette-divider">
+  </div>
+
+  <footer class="container">
+    <p class="float-start"><a href="mailto:emailseanrussell@gmail.com?subject=Testing out mailto!"> Website issues? Please let us know! </a></p>
+  </footer>
+</main>
+<script src="bootstrap.bundle.min.js"></script>
 </body>
 </html>
